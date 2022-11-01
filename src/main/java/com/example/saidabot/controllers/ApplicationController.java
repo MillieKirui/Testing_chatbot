@@ -31,16 +31,13 @@ public class ApplicationController {
 
     }
 
-//    //@RequestMapping(path="/webhook", method = RequestMethod.POST)
+   //@RequestMapping(path="/webhook", method = RequestMethod.POST)
     @PostMapping( value = "/webhook")
     public ResponseEntity<Payload>  postBody(@RequestBody Payload payload) throws IOException {
 
         return payloadValidate.validate_payload(payload);
     }
-//    public String postBody(@RequestBody String message)  {
-//        System.out.println(message);
-//        return message;
-//    }
+
 
 
 }

@@ -27,6 +27,7 @@ public class MessageCheck {
 
         String from = payload.getEntry().get(0).getChanges().get(0).getValue().getMessages().get(0).getFrom();
 
+
         if(type.equals("text")){
 
             return responseMessage.send_response(from);

@@ -1,7 +1,7 @@
 package com.example.saidabot.Model.CustomerCare100;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Level0 {
