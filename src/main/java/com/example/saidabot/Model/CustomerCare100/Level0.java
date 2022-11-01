@@ -31,4 +31,6 @@ public class Level0 {
     public void setService_type(String service_type) {
         this.service_type = service_type;
     }
+
+
 }
