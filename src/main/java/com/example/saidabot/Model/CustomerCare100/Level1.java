@@ -2,8 +2,7 @@ package com.example.saidabot.Model.CustomerCare100;
 
 import javax.persistence.*;
 
-
-
+@Entity
 public class Level1 {
     @Id
     private Double level1_id;
